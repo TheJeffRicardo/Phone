@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(56, 146, 210);
+}
+h1 {
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+div h1 {
+    margin-left: 400px;
+}
+div ol li {
+    padding: 20px;
+    margin: 50px;
+    font-size: 30px;
+}
+a {
+    color: black;
+    font-size: 35px;
+}
+ol li:first-child {
+    color: black;
+    background-color: rgb(56, 146, 210);
+}
+  
+ol li:hover:first-child {
+    font-size: 35px;
+    cursor: pointer;
+    background-color: black;
+    color:  rgb(56, 146, 210);
+    transition: 0.5s;
+}
+ol i:hover:last-child {
+    font-size: 35px;
+    cursor: pointer;
+    background-color: black;
+    color:  rgb(56, 146, 210);
+    transition: 0.5s;
+}
+
+ol i:last-child {
+    color: black;
+    background-color: rgb(56, 146, 210);
+}
+  
